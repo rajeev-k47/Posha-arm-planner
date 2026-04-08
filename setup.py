@@ -24,6 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'generate_artifacts = posha_robotic_sub.generate_artifacts:main',
         ],
     },
 )
