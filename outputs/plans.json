@@ -1,0 +1,1197 @@
+{
+  "macro_container_5_to_pan_2": {
+    "task_name": "macro_container_5_to_pan_2",
+    "source_name": "container_5",
+    "target_name": "pan_2",
+    "waypoints": [
+      {
+        "name": "home",
+        "pose": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.3,
+          "roll": 0.0,
+          "pitch": 0.0,
+          "yaw": 0.0
+        },
+        "joints": [
+          0.0,
+          0.5356343742217409,
+          2.260556596278634,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "collisions": [
+          "rear_wall"
+        ],
+        "transition_collisions": []
+      },
+      {
+        "name": "source_above",
+        "pose": {
+          "x": 0.6,
+          "y": 0.1,
+          "z": 0.19,
+          "roll": 0.0,
+          "pitch": -0.2,
+          "yaw": 0.16514867741462685
+        },
+        "joints": [
+          0.16514867741462685,
+          0.12965835801143147,
+          0.0043693153622226845,
+          0.0,
+          -0.2,
+          0.16514867741462685
+        ],
+        "collisions": [
+          "macro_zone"
+        ],
+        "transition_collisions": [
+          "macro_zone",
+          "rear_wall"
+        ]
+      },
+      {
+        "name": "grasp",
+        "pose": {
+          "x": 0.6,
+          "y": 0.1,
+          "z": 0.055,
+          "roll": 0.0,
+          "pitch": -0.2,
+          "yaw": 0.16514867741462685
+        },
+        "joints": [
+          0.16514867741462685,
+          -0.12450697061529142,
+          0.0043693153622226845,
+          0.0,
+          -0.2,
+          0.16514867741462685
+        ],
+        "collisions": [
+          "macro_zone"
+        ],
+        "transition_collisions": [
+          "macro_zone"
+        ]
+      },
+      {
+        "name": "lift",
+        "pose": {
+          "x": 0.6,
+          "y": 0.1,
+          "z": 0.19,
+          "roll": 0.0,
+          "pitch": -0.2,
+          "yaw": 0.16514867741462685
+        },
+        "joints": [
+          0.16514867741462685,
+          0.12965835801143147,
+          0.0043693153622226845,
+          0.0,
+          -0.2,
+          0.16514867741462685
+        ],
+        "collisions": [
+          "macro_zone"
+        ],
+        "transition_collisions": [
+          "macro_zone"
+        ]
+      },
+      {
+        "name": "park",
+        "pose": {
+          "x": 0.4,
+          "y": 0.175,
+          "z": 0.24,
+          "roll": 0.0,
+          "pitch": 0.0,
+          "yaw": 0.5306020309929854
+        },
+        "joints": [
+          0.41241044159738727,
+          -0.11277646985345624,
+          0.9220575884151364,
+          0.0,
+          0.0,
+          0.5306020309929854
+        ],
+        "collisions": [],
+        "transition_collisions": [
+          "macro_zone"
+        ]
+      },
+      {
+        "name": "target_above",
+        "pose": {
+          "x": 0.2,
+          "y": 0.25,
+          "z": 0.15000000000000002,
+          "roll": 0.0,
+          "pitch": 0.4,
+          "yaw": 0.8960553845713439
+        },
+        "joints": [
+          0.8960553845713439,
+          -0.7663422327235079,
+          1.9165654554278335,
+          0.0,
+          0.4,
+          0.8960553845713439
+        ],
+        "collisions": [],
+        "transition_collisions": [
+          "macro_zone"
+        ]
+      },
+      {
+        "name": "dispense",
+        "pose": {
+          "x": 0.2,
+          "y": 0.25,
+          "z": 0.15000000000000002,
+          "roll": 0.0,
+          "pitch": 0.4,
+          "yaw": 0.8960553845713439
+        },
+        "joints": [
+          0.8960553845713439,
+          -0.7663422327235079,
+          1.9165654554278335,
+          0.0,
+          0.4,
+          0.8960553845713439
+        ],
+        "collisions": [],
+        "transition_collisions": []
+      },
+      {
+        "name": "target_retreat",
+        "pose": {
+          "x": 0.2,
+          "y": 0.25,
+          "z": 0.15000000000000002,
+          "roll": 0.0,
+          "pitch": 0.0,
+          "yaw": 0.8960553845713439
+        },
+        "joints": [
+          0.8960553845713439,
+          -0.7663422327235079,
+          1.9165654554278335,
+          0.0,
+          0.0,
+          0.8960553845713439
+        ],
+        "collisions": [],
+        "transition_collisions": []
+      },
+      {
+        "name": "park_return",
+        "pose": {
+          "x": 0.4,
+          "y": 0.175,
+          "z": 0.24,
+          "roll": 0.0,
+          "pitch": 0.0,
+          "yaw": 0.5306020309929854
+        },
+        "joints": [
+          0.41241044159738727,
+          -0.11277646985345624,
+          0.9220575884151364,
+          0.0,
+          0.0,
+          0.5306020309929854
+        ],
+        "collisions": [],
+        "transition_collisions": [
+          "macro_zone"
+        ]
+      },
+      {
+        "name": "source_return",
+        "pose": {
+          "x": 0.6,
+          "y": 0.1,
+          "z": 0.19,
+          "roll": 0.0,
+          "pitch": -0.2,
+          "yaw": 0.16514867741462685
+        },
+        "joints": [
+          0.16514867741462685,
+          0.12965835801143147,
+          0.0043693153622226845,
+          0.0,
+          -0.2,
+          0.16514867741462685
+        ],
+        "collisions": [
+          "macro_zone"
+        ],
+        "transition_collisions": [
+          "macro_zone"
+        ]
+      },
+      {
+        "name": "place",
+        "pose": {
+          "x": 0.6,
+          "y": 0.1,
+          "z": 0.055,
+          "roll": 0.0,
+          "pitch": -0.2,
+          "yaw": 0.16514867741462685
+        },
+        "joints": [
+          0.16514867741462685,
+          -0.12450697061529142,
+          0.0043693153622226845,
+          0.0,
+          -0.2,
+          0.16514867741462685
+        ],
+        "collisions": [
+          "macro_zone"
+        ],
+        "transition_collisions": [
+          "macro_zone"
+        ]
+      },
+      {
+        "name": "home_return",
+        "pose": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.3,
+          "roll": 0.0,
+          "pitch": 0.0,
+          "yaw": 0.0
+        },
+        "joints": [
+          0.0,
+          0.5356343742217409,
+          2.260556596278634,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "collisions": [
+          "rear_wall"
+        ],
+        "transition_collisions": [
+          "macro_zone",
+          "rear_wall"
+        ]
+      }
+    ]
+  },
+  "macro_container_1_to_pan_1": {
+    "task_name": "macro_container_1_to_pan_1",
+    "source_name": "container_1",
+    "target_name": "pan_1",
+    "waypoints": [
+      {
+        "name": "home",
+        "pose": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.3,
+          "roll": 0.0,
+          "pitch": 0.0,
+          "yaw": 0.0
+        },
+        "joints": [
+          0.0,
+          0.5356343742217409,
+          2.260556596278634,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "collisions": [
+          "rear_wall"
+        ],
+        "transition_collisions": []
+      },
+      {
+        "name": "source_above",
+        "pose": {
+          "x": 0.1,
+          "y": -0.1,
+          "z": 0.19,
+          "roll": 0.0,
+          "pitch": -0.2,
+          "yaw": -0.7853981633974483
+        },
+        "joints": [
+          -0.7853981633974483,
+          -0.29045667928718344,
+          2.704516970735153,
+          0.0,
+          -0.2,
+          -0.7853981633974483
+        ],
+        "collisions": [
+          "robot_base_keepout",
+          "macro_zone"
+        ],
+        "transition_collisions": [
+          "macro_zone",
+          "rear_wall",
+          "robot_base_keepout"
+        ]
+      },
+      {
+        "name": "grasp",
+        "pose": {
+          "x": 0.1,
+          "y": -0.1,
+          "z": 0.055,
+          "roll": 0.0,
+          "pitch": -0.2,
+          "yaw": -0.7853981633974483
+        },
+        "joints": [
+          -0.7853981633974483,
+          -1.9546564744666906,
+          2.723004756609067,
+          0.0,
+          -0.2,
+          -0.7853981633974483
+        ],
+        "collisions": [
+          "robot_base_keepout",
+          "macro_zone"
+        ],
+        "transition_collisions": [
+          "macro_zone",
+          "robot_base_keepout"
+        ]
+      },
+      {
+        "name": "lift",
+        "pose": {
+          "x": 0.1,
+          "y": -0.1,
+          "z": 0.19,
+          "roll": 0.0,
+          "pitch": -0.2,
+          "yaw": -0.7853981633974483
+        },
+        "joints": [
+          -0.7853981633974483,
+          -0.29045667928718344,
+          2.704516970735153,
+          0.0,
+          -0.2,
+          -0.7853981633974483
+        ],
+        "collisions": [
+          "robot_base_keepout",
+          "macro_zone"
+        ],
+        "transition_collisions": [
+          "macro_zone",
+          "robot_base_keepout"
+        ]
+      },
+      {
+        "name": "park",
+        "pose": {
+          "x": 0.15000000000000002,
+          "y": -0.175,
+          "z": 0.24,
+          "roll": 0.0,
+          "pitch": 0.0,
+          "yaw": -0.8407267739843961
+        },
+        "joints": [
+          -0.8621700546672263,
+          -0.33120234412413363,
+          2.1939005765747512,
+          0.0,
+          0.0,
+          -0.8407267739843961
+        ],
+        "collisions": [],
+        "transition_collisions": [
+          "macro_zone",
+          "robot_base_keepout"
+        ]
+      },
+      {
+        "name": "target_above",
+        "pose": {
+          "x": 0.2,
+          "y": -0.25,
+          "z": 0.15000000000000002,
+          "roll": 0.0,
+          "pitch": 0.4,
+          "yaw": -0.8960553845713439
+        },
+        "joints": [
+          -0.8960553845713439,
+          -0.7663422327235079,
+          1.9165654554278335,
+          0.0,
+          0.4,
+          -0.8960553845713439
+        ],
+        "collisions": [],
+        "transition_collisions": [
+          "macro_zone"
+        ]
+      },
+      {
+        "name": "dispense",
+        "pose": {
+          "x": 0.2,
+          "y": -0.25,
+          "z": 0.15000000000000002,
+          "roll": 0.0,
+          "pitch": 0.4,
+          "yaw": -0.8960553845713439
+        },
+        "joints": [
+          -0.8960553845713439,
+          -0.7663422327235079,
+          1.9165654554278335,
+          0.0,
+          0.4,
+          -0.8960553845713439
+        ],
+        "collisions": [],
+        "transition_collisions": []
+      },
+      {
+        "name": "target_retreat",
+        "pose": {
+          "x": 0.2,
+          "y": -0.25,
+          "z": 0.15000000000000002,
+          "roll": 0.0,
+          "pitch": 0.0,
+          "yaw": -0.8960553845713439
+        },
+        "joints": [
+          -0.8960553845713439,
+          -0.7663422327235079,
+          1.9165654554278335,
+          0.0,
+          0.0,
+          -0.8960553845713439
+        ],
+        "collisions": [],
+        "transition_collisions": []
+      },
+      {
+        "name": "park_return",
+        "pose": {
+          "x": 0.15000000000000002,
+          "y": -0.175,
+          "z": 0.24,
+          "roll": 0.0,
+          "pitch": 0.0,
+          "yaw": -0.8407267739843961
+        },
+        "joints": [
+          -0.8621700546672263,
+          -0.33120234412413363,
+          2.1939005765747512,
+          0.0,
+          0.0,
+          -0.8407267739843961
+        ],
+        "collisions": [],
+        "transition_collisions": [
+          "macro_zone"
+        ]
+      },
+      {
+        "name": "source_return",
+        "pose": {
+          "x": 0.1,
+          "y": -0.1,
+          "z": 0.19,
+          "roll": 0.0,
+          "pitch": -0.2,
+          "yaw": -0.7853981633974483
+        },
+        "joints": [
+          -0.7853981633974483,
+          -0.29045667928718344,
+          2.704516970735153,
+          0.0,
+          -0.2,
+          -0.7853981633974483
+        ],
+        "collisions": [
+          "robot_base_keepout",
+          "macro_zone"
+        ],
+        "transition_collisions": [
+          "macro_zone",
+          "robot_base_keepout"
+        ]
+      },
+      {
+        "name": "place",
+        "pose": {
+          "x": 0.1,
+          "y": -0.1,
+          "z": 0.055,
+          "roll": 0.0,
+          "pitch": -0.2,
+          "yaw": -0.7853981633974483
+        },
+        "joints": [
+          -0.7853981633974483,
+          -1.9546564744666906,
+          2.723004756609067,
+          0.0,
+          -0.2,
+          -0.7853981633974483
+        ],
+        "collisions": [
+          "robot_base_keepout",
+          "macro_zone"
+        ],
+        "transition_collisions": [
+          "macro_zone",
+          "robot_base_keepout"
+        ]
+      },
+      {
+        "name": "home_return",
+        "pose": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.3,
+          "roll": 0.0,
+          "pitch": 0.0,
+          "yaw": 0.0
+        },
+        "joints": [
+          0.0,
+          0.5356343742217409,
+          2.260556596278634,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "collisions": [
+          "rear_wall"
+        ],
+        "transition_collisions": [
+          "macro_zone",
+          "rear_wall",
+          "robot_base_keepout"
+        ]
+      }
+    ]
+  },
+  "micro_pod_1_to_pan_2": {
+    "task_name": "micro_pod_1_to_pan_2",
+    "source_name": "pod_1",
+    "target_name": "pan_2",
+    "waypoints": [
+      {
+        "name": "home",
+        "pose": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.3,
+          "roll": 0.0,
+          "pitch": 0.0,
+          "yaw": 0.0
+        },
+        "joints": [
+          0.0,
+          0.5356343742217409,
+          2.260556596278634,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "collisions": [
+          "rear_wall"
+        ],
+        "transition_collisions": []
+      },
+      {
+        "name": "source_above",
+        "pose": {
+          "x": 0.0,
+          "y": -0.3,
+          "z": 1.0699999999999998,
+          "roll": 0.0,
+          "pitch": -0.1,
+          "yaw": -1.5707963267948966
+        },
+        "joints": [
+          -1.5707963267948966,
+          1.3411482131864787,
+          0.0043693153622226845,
+          0.0,
+          -0.1,
+          -1.5707963267948966
+        ],
+        "collisions": [
+          "rear_wall"
+        ],
+        "transition_collisions": [
+          "pod_wall_negative_y",
+          "rear_wall"
+        ]
+      },
+      {
+        "name": "grasp",
+        "pose": {
+          "x": 0.0,
+          "y": -0.3,
+          "z": 0.952,
+          "roll": 0.0,
+          "pitch": -0.1,
+          "yaw": -1.5707963267948966
+        },
+        "joints": [
+          -1.5707963267948966,
+          1.3102091141644117,
+          0.0043693153622226845,
+          0.0,
+          -0.1,
+          -1.5707963267948966
+        ],
+        "collisions": [
+          "pod_wall_negative_y",
+          "rear_wall"
+        ],
+        "transition_collisions": [
+          "pod_wall_negative_y",
+          "rear_wall"
+        ]
+      },
+      {
+        "name": "lift",
+        "pose": {
+          "x": 0.0,
+          "y": -0.3,
+          "z": 1.0699999999999998,
+          "roll": 0.0,
+          "pitch": -0.1,
+          "yaw": -1.5707963267948966
+        },
+        "joints": [
+          -1.5707963267948966,
+          1.3411482131864787,
+          0.0043693153622226845,
+          0.0,
+          -0.1,
+          -1.5707963267948966
+        ],
+        "collisions": [
+          "rear_wall"
+        ],
+        "transition_collisions": [
+          "pod_wall_negative_y",
+          "rear_wall"
+        ]
+      },
+      {
+        "name": "park",
+        "pose": {
+          "x": 0.1,
+          "y": -0.024999999999999994,
+          "z": 1.1199999999999999,
+          "roll": 0.0,
+          "pitch": 0.0,
+          "yaw": -0.3373704711117763
+        },
+        "joints": [
+          -0.2449786631268641,
+          1.5456421555253435,
+          0.0043693153622226845,
+          0.0,
+          0.0,
+          -0.3373704711117763
+        ],
+        "collisions": [],
+        "transition_collisions": [
+          "rear_wall"
+        ]
+      },
+      {
+        "name": "target_above",
+        "pose": {
+          "x": 0.2,
+          "y": 0.25,
+          "z": 0.14,
+          "roll": 0.0,
+          "pitch": 0.2,
+          "yaw": 0.8960553845713439
+        },
+        "joints": [
+          0.8960553845713439,
+          -0.8101173369396039,
+          1.9226113270089202,
+          0.0,
+          0.2,
+          0.8960553845713439
+        ],
+        "collisions": [],
+        "transition_collisions": []
+      },
+      {
+        "name": "dispense",
+        "pose": {
+          "x": 0.2,
+          "y": 0.25,
+          "z": 0.14,
+          "roll": 0.0,
+          "pitch": 0.2,
+          "yaw": 0.8960553845713439
+        },
+        "joints": [
+          0.8960553845713439,
+          -0.8101173369396039,
+          1.9226113270089202,
+          0.0,
+          0.2,
+          0.8960553845713439
+        ],
+        "collisions": [],
+        "transition_collisions": []
+      },
+      {
+        "name": "target_retreat",
+        "pose": {
+          "x": 0.2,
+          "y": 0.25,
+          "z": 0.14,
+          "roll": 0.0,
+          "pitch": 0.0,
+          "yaw": 0.8960553845713439
+        },
+        "joints": [
+          0.8960553845713439,
+          -0.8101173369396039,
+          1.9226113270089202,
+          0.0,
+          0.0,
+          0.8960553845713439
+        ],
+        "collisions": [],
+        "transition_collisions": []
+      },
+      {
+        "name": "park_return",
+        "pose": {
+          "x": 0.1,
+          "y": -0.024999999999999994,
+          "z": 1.1199999999999999,
+          "roll": 0.0,
+          "pitch": 0.0,
+          "yaw": -0.3373704711117763
+        },
+        "joints": [
+          -0.2449786631268641,
+          1.5456421555253435,
+          0.0043693153622226845,
+          0.0,
+          0.0,
+          -0.3373704711117763
+        ],
+        "collisions": [],
+        "transition_collisions": []
+      },
+      {
+        "name": "source_return",
+        "pose": {
+          "x": 0.0,
+          "y": -0.3,
+          "z": 1.0699999999999998,
+          "roll": 0.0,
+          "pitch": -0.1,
+          "yaw": -1.5707963267948966
+        },
+        "joints": [
+          -1.5707963267948966,
+          1.3411482131864787,
+          0.0043693153622226845,
+          0.0,
+          -0.1,
+          -1.5707963267948966
+        ],
+        "collisions": [
+          "rear_wall"
+        ],
+        "transition_collisions": [
+          "rear_wall"
+        ]
+      },
+      {
+        "name": "place",
+        "pose": {
+          "x": 0.0,
+          "y": -0.3,
+          "z": 0.952,
+          "roll": 0.0,
+          "pitch": -0.1,
+          "yaw": -1.5707963267948966
+        },
+        "joints": [
+          -1.5707963267948966,
+          1.3102091141644117,
+          0.0043693153622226845,
+          0.0,
+          -0.1,
+          -1.5707963267948966
+        ],
+        "collisions": [
+          "pod_wall_negative_y",
+          "rear_wall"
+        ],
+        "transition_collisions": [
+          "pod_wall_negative_y",
+          "rear_wall"
+        ]
+      },
+      {
+        "name": "home_return",
+        "pose": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.3,
+          "roll": 0.0,
+          "pitch": 0.0,
+          "yaw": 0.0
+        },
+        "joints": [
+          0.0,
+          0.5356343742217409,
+          2.260556596278634,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "collisions": [
+          "rear_wall"
+        ],
+        "transition_collisions": [
+          "pod_wall_negative_y",
+          "rear_wall"
+        ]
+      }
+    ]
+  },
+  "micro_pod_19_to_pan_1": {
+    "task_name": "micro_pod_19_to_pan_1",
+    "source_name": "pod_19",
+    "target_name": "pan_1",
+    "waypoints": [
+      {
+        "name": "home",
+        "pose": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.3,
+          "roll": 0.0,
+          "pitch": 0.0,
+          "yaw": 0.0
+        },
+        "joints": [
+          0.0,
+          0.5356343742217409,
+          2.260556596278634,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "collisions": [
+          "rear_wall"
+        ],
+        "transition_collisions": []
+      },
+      {
+        "name": "source_above",
+        "pose": {
+          "x": 0.0,
+          "y": 0.2,
+          "z": 0.37,
+          "roll": 0.0,
+          "pitch": -0.1,
+          "yaw": 1.5707963267948966
+        },
+        "joints": [
+          1.5707963267948966,
+          0.3266042746460259,
+          1.701852991169113,
+          0.0,
+          -0.1,
+          1.5707963267948966
+        ],
+        "collisions": [
+          "pod_wall_positive_y",
+          "rear_wall"
+        ],
+        "transition_collisions": [
+          "pod_wall_positive_y",
+          "rear_wall"
+        ]
+      },
+      {
+        "name": "grasp",
+        "pose": {
+          "x": 0.0,
+          "y": 0.2,
+          "z": 0.252,
+          "roll": 0.0,
+          "pitch": -0.1,
+          "yaw": 1.5707963267948966
+        },
+        "joints": [
+          1.5707963267948966,
+          -0.19977451428262094,
+          2.2690866206191402,
+          0.0,
+          -0.1,
+          1.5707963267948966
+        ],
+        "collisions": [
+          "pod_wall_positive_y",
+          "rear_wall"
+        ],
+        "transition_collisions": [
+          "pod_wall_positive_y",
+          "rear_wall"
+        ]
+      },
+      {
+        "name": "lift",
+        "pose": {
+          "x": 0.0,
+          "y": 0.2,
+          "z": 0.37,
+          "roll": 0.0,
+          "pitch": -0.1,
+          "yaw": 1.5707963267948966
+        },
+        "joints": [
+          1.5707963267948966,
+          0.3266042746460259,
+          1.701852991169113,
+          0.0,
+          -0.1,
+          1.5707963267948966
+        ],
+        "collisions": [
+          "pod_wall_positive_y",
+          "rear_wall"
+        ],
+        "transition_collisions": [
+          "pod_wall_positive_y",
+          "rear_wall"
+        ]
+      },
+      {
+        "name": "park",
+        "pose": {
+          "x": 0.1,
+          "y": -0.024999999999999994,
+          "z": 0.42,
+          "roll": 0.0,
+          "pitch": 0.0,
+          "yaw": 0.3373704711117763
+        },
+        "joints": [
+          -0.2449786631268641,
+          0.7671872781459511,
+          1.5465601189658031,
+          0.0,
+          0.0,
+          0.3373704711117763
+        ],
+        "collisions": [],
+        "transition_collisions": [
+          "pod_wall_positive_y",
+          "rear_wall"
+        ]
+      },
+      {
+        "name": "target_above",
+        "pose": {
+          "x": 0.2,
+          "y": -0.25,
+          "z": 0.14,
+          "roll": 0.0,
+          "pitch": 0.2,
+          "yaw": -0.8960553845713439
+        },
+        "joints": [
+          -0.8960553845713439,
+          -0.8101173369396039,
+          1.9226113270089202,
+          0.0,
+          0.2,
+          -0.8960553845713439
+        ],
+        "collisions": [],
+        "transition_collisions": [
+          "macro_zone"
+        ]
+      },
+      {
+        "name": "dispense",
+        "pose": {
+          "x": 0.2,
+          "y": -0.25,
+          "z": 0.14,
+          "roll": 0.0,
+          "pitch": 0.2,
+          "yaw": -0.8960553845713439
+        },
+        "joints": [
+          -0.8960553845713439,
+          -0.8101173369396039,
+          1.9226113270089202,
+          0.0,
+          0.2,
+          -0.8960553845713439
+        ],
+        "collisions": [],
+        "transition_collisions": []
+      },
+      {
+        "name": "target_retreat",
+        "pose": {
+          "x": 0.2,
+          "y": -0.25,
+          "z": 0.14,
+          "roll": 0.0,
+          "pitch": 0.0,
+          "yaw": -0.8960553845713439
+        },
+        "joints": [
+          -0.8960553845713439,
+          -0.8101173369396039,
+          1.9226113270089202,
+          0.0,
+          0.0,
+          -0.8960553845713439
+        ],
+        "collisions": [],
+        "transition_collisions": []
+      },
+      {
+        "name": "park_return",
+        "pose": {
+          "x": 0.1,
+          "y": -0.024999999999999994,
+          "z": 0.42,
+          "roll": 0.0,
+          "pitch": 0.0,
+          "yaw": 0.3373704711117763
+        },
+        "joints": [
+          -0.2449786631268641,
+          0.7671872781459511,
+          1.5465601189658031,
+          0.0,
+          0.0,
+          0.3373704711117763
+        ],
+        "collisions": [],
+        "transition_collisions": [
+          "macro_zone"
+        ]
+      },
+      {
+        "name": "source_return",
+        "pose": {
+          "x": 0.0,
+          "y": 0.2,
+          "z": 0.37,
+          "roll": 0.0,
+          "pitch": -0.1,
+          "yaw": 1.5707963267948966
+        },
+        "joints": [
+          1.5707963267948966,
+          0.3266042746460259,
+          1.701852991169113,
+          0.0,
+          -0.1,
+          1.5707963267948966
+        ],
+        "collisions": [
+          "pod_wall_positive_y",
+          "rear_wall"
+        ],
+        "transition_collisions": [
+          "pod_wall_positive_y",
+          "rear_wall"
+        ]
+      },
+      {
+        "name": "place",
+        "pose": {
+          "x": 0.0,
+          "y": 0.2,
+          "z": 0.252,
+          "roll": 0.0,
+          "pitch": -0.1,
+          "yaw": 1.5707963267948966
+        },
+        "joints": [
+          1.5707963267948966,
+          -0.19977451428262094,
+          2.2690866206191402,
+          0.0,
+          -0.1,
+          1.5707963267948966
+        ],
+        "collisions": [
+          "pod_wall_positive_y",
+          "rear_wall"
+        ],
+        "transition_collisions": [
+          "pod_wall_positive_y",
+          "rear_wall"
+        ]
+      },
+      {
+        "name": "home_return",
+        "pose": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.3,
+          "roll": 0.0,
+          "pitch": 0.0,
+          "yaw": 0.0
+        },
+        "joints": [
+          0.0,
+          0.5356343742217409,
+          2.260556596278634,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "collisions": [
+          "rear_wall"
+        ],
+        "transition_collisions": [
+          "pod_wall_positive_y",
+          "rear_wall"
+        ]
+      }
+    ]
+  }
+}
