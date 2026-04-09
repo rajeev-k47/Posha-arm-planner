@@ -1,4 +1,5 @@
 from dataclasses import dataclass
+from math import atan2
 from typing import Dict, List
 
 
@@ -33,12 +34,40 @@ class Workspace:
     def __init__(self):
 
         self.targets: Dict[str, Target] = {
-            "container_1": Target("container_1", "container", Pose(0.10, -0.10, 0.05)),
-            "container_5": Target("container_5", "container", Pose(0.60, 0.10, 0.05)),
-            "pod_1": Target("pod_1", "pod", Pose(0.00, -0.30, 0.95)),
-            "pod_19": Target("pod_19", "pod", Pose(0.00, 0.20, 0.25)),
-            "pan_1": Target("pan_1", "pan", Pose(0.20, -0.25, 0.05)),
-            "pan_2": Target("pan_2", "pan", Pose(0.20, 0.25, 0.05)),
+            "container_1": Target(
+                "container_1",
+                "container",
+                Pose(0.10, -0.10, 0.05, roll=0.0,
+                     pitch=0.0, yaw=atan2(-0.10, 0.10)),
+            ),
+            "container_5": Target(
+                "container_5",
+                "container",
+                Pose(0.60, 0.10, 0.05, roll=0.0,
+                     pitch=0.0, yaw=atan2(0.10, 0.60)),
+            ),
+            "pod_1": Target(
+                "pod_1",
+                "pod",
+                Pose(0.00, -0.35, 0.65, roll=0.0, pitch=0.0, yaw=-1.5708),
+            ),
+            "pod_19": Target(
+                "pod_19",
+                "pod",
+                Pose(0.00, 0.20, 0.25, roll=0.0, pitch=0.0, yaw=1.5708),
+            ),
+            "pan_1": Target(
+                "pan_1",
+                "pan",
+                Pose(0.20, -0.35, 0.05, roll=0.0,
+                     pitch=0.0, yaw=atan2(-0.35, 0.20)),
+            ),
+            "pan_2": Target(
+                "pan_2",
+                "pan",
+                Pose(0.20, 0.35, 0.05, roll=0.0,
+                     pitch=0.0, yaw=atan2(0.35, 0.20)),
+            ),
         }
 
         self.tasks: List[Task] = [
@@ -51,7 +80,3 @@ class Workspace:
             Task("micro_pod_19_to_pan_1", "pod_19",
                  "pan_1", 0.002, 0.12, 0.09),
         ]
-
-
-if __name__ == "__main__":
-    workspace = Workspace()
