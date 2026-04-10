@@ -5,7 +5,6 @@ from pathlib import Path
 from posha_robotic_sub.collision import CollisionChecker
 from posha_robotic_sub.kinematics import SimpleKinematics
 from posha_robotic_sub.motion_planner import Planner
-from posha_robotic_sub.reporting import generate_report
 from posha_robotic_sub.workspace import Workspace
 
 
@@ -50,4 +49,4 @@ def main():
 
     output_file = output_dir / "plans.json"
     output_file.write_text(json.dumps(all_plans, indent=2))
-    generate_report(all_plans, output_dir)
+#    generate_report(all_plans, output_dir)
